@@ -1,0 +1,85 @@
+.postDate{
+    font-weight: 500;
+    color: $postDate;
+    &:hover {
+        color: $postDateHover;
+        text-decoration: none;
+    }
+}
+
+header.posthead {
+    position: relative;
+    background-color: #ffffff;
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  header.posthead h1 {
+    font-size: 2rem;
+    color: #343a40;
+  }
+  
+  @media (min-width: 768px) {
+    header.posthead {
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+    }
+    header.posthead h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .postCover {
+    background-color: #343a40;
+    background-size: cover;
+  }
+
+.article-hero .article-hero-img {
+    height: 43.75vw;
+    width: 100vw;
+    max-width: none;
+    margin: 0 auto;
+}
+
+.article-hero-img{
+    background: url(../img/post_3.jpeg) center/cover no-repeat; 
+    background-size:auto 100%;
+}
+
+.recommendedArticles{
+  background-color: #efefef !important;
+  padding-bottom: 3rem;
+  .populerStories{
+    .card{
+      border: none;
+    }
+  }
+}
+
+.content{
+  p:first-of-type{
+    font-size: 1.25em;
+    &::first-letter{
+      font-size: 3.7em;
+      font-weight: 500;
+      float: left;
+      padding-right: 10px;
+      margin-top: .1rem;
+    }
+  }
+}
+
+.author{
+    align-items: center !important;
+    width: 170px;
+    text-align: center;
+    .author-avatar {
+      border: 5px solid #ededed;
+      background: url(../img/me.jpg) center/cover no-repeat;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+}

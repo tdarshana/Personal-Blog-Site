@@ -1,0 +1,43 @@
+body {
+  @include body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include body-font;
+  font-weight: 400;
+}
+
+.containter-custom{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+a {
+  color:$gray-900;
+  &:hover{
+    color: $gray-600;
+    text-decoration: none;
+  }
+}
+
+p {
+  em {
+    a {
+      color: $blue;
+      &:hover{
+        color: $indigo;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.sectionHeader{
+  font-weight: 400;
+  color: $gray-700;
+}

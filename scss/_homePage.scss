@@ -1,0 +1,22 @@
+
+.latestStories{
+    margin-bottom: 3rem !important;
+    .card{
+        border: 0;
+        border-radius: 0;
+        .card-body{
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+}
+
+.populerStoriesSection {
+    background-color: #022C43 !important;
+    .populerStories {
+        margin-bottom: 3rem !important;
+        .card{
+            border: 0;
+        }
+    }
+}
