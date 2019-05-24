@@ -4,7 +4,7 @@ This is my personal blog site template for Word-press REST back-end using Angula
 
 ## Preview
 
-![](/home/darshana/Desktop/BlogTemplate/Bytewagon_Home.png)
+![](Bytewagon_Home.png)
 
 ## Download and Installation
 
